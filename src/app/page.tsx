@@ -19,6 +19,7 @@ import { InfluencerList } from "./helper/text";
 import { ImageSetter } from './components/solutions/ImageSetter';
 import shareImageNew from "./assets/shareImageNew.jpeg"
 import { FeatureSection } from "./components/featuresSection/FeatureSection";
+import { EngagingSection } from "./components/engagingSection/EngagingSection";
 
 
 
@@ -385,6 +386,8 @@ export default function Home() {
            
 
           </section>
+
+          <EngagingSection/>
 
           {/* FAQ section  */}
           <section className="flex flex-col px-4 py-12 ">
