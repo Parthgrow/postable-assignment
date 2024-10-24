@@ -18,6 +18,7 @@ import { BusinessList } from "./helper/text";
 import { InfluencerList } from "./helper/text";
 import { ImageSetter } from './components/solutions/ImageSetter';
 import shareImageNew from "./assets/shareImageNew.jpeg"
+import { FeatureSection } from "./components/featuresSection/FeatureSection";
 
 
 
@@ -325,9 +326,7 @@ export default function Home() {
           </section>
 
           {/* our features  */}
-          <section className="border-2 border-black">
-
-          </section>
+          <FeatureSection/>
 
 
           {/* One solution for all  */}
