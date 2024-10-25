@@ -167,7 +167,7 @@ export default function Home() {
 
           {/* section => try sample tweet  */}
 
-          <section className="">
+          {/* <section className="">
 
             <div className="flex flex-col items-center">
 
@@ -199,15 +199,15 @@ export default function Home() {
 
             </div>
             </div>
-          </section>
+          </section> */}
 
         
 
 
           {/* section => Share your voice  */}
           <section className="" >
-            <div className="flex justify-center">
-              <div className="border-[1.5px] border-neutral-400 w-[60%]  h-[80vh] flex flex-col items-center text-center rounded-[60px] py-[6vh] px-[8%]" style={{backgroundImage : `url(${shareImageNew.src})`, backgroundRepeat : "no-repeat", backgroundSize : "cover"}} >
+            <div className="flex justify-center ">
+              <div className="border-[1.5px] border-neutral-400 w-[60%]  h-[80vh] flex flex-col items-center text-center rounded-[60px] py-40 px-[8%]" style={{backgroundImage : `url(${shareImageNew.src})`, backgroundRepeat : "no-repeat", backgroundSize : "cover"}} >
 
                 <div className="text-4xl font-heavy  text-white text-[4rem] font-bold leading-none">
                   Share your voice beyond just a tweet 
